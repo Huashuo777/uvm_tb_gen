@@ -1,0 +1,10 @@
+cmp:
+	vcs -full64 -sverilog -debug_access+all -timescale=1ns/100ps ../dadd.v ../tb_dadd.sv -l compile.log 
+sim:
+	./simv -l sim.log  
+all:cmp sim
+
+clean:
+	@rm .[a-zA-Z0-9]* -rf
+	@ls | grep -v 'Makefile' | xargs rm -rf
+	@echo Clean done.

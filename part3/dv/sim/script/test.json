@@ -1,0 +1,8 @@
+{
+    "global_macor_opt": "+UVM",
+    "modules": {
+        "dadd": "../dadd/test/dadd.json",
+        "dsel": "../dsel/test/dsel.json",
+        "dtc": "../dtc/test/dtc.json"
+    }
+}

@@ -1,0 +1,11 @@
+../../rtl/common/apb_rw_reg.v
+../../rtl/dsel/dsel_define.v
+../../rtl/dsel/sync_fifo.v
+../../rtl/dsel/axir2ram.v
+../../rtl/dsel/axiw2ram.v
+../../rtl/dsel/locw2ram.v
+../../rtl/dsel/dsel_regfile.v
+../../rtl/dsel/sram.v
+../../rtl/dsel/dsel_data_handle.v
+../../rtl/dsel/dsel.v
+//../../rtl/dsel/tb_dsel.v

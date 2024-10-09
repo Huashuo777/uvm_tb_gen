@@ -1,0 +1,37 @@
+{
+    "name":"dadd",
+    "common_macro_opt":"",
+    "tests":
+        {
+            "dadd_smoke_test":
+            {
+                "smoke":"true", 
+                "full":"true", 
+                "codecoverage":"true", 
+                "iteration":"1", 
+                "uvm_testname":"dadd_smoke_test", 
+                "macro_opt":"", 
+                "plusargs_opt":"" 
+            },
+            "dadd_rand_test":
+            {
+                "rand":"true", 
+                "full":"true", 
+                "codecoverage":"true", 
+                "iteration":"1", 
+                "uvm_testname":"dadd_rand_test", 
+                "macro_opt":"", 
+                "plusargs_opt":"" 
+            },
+            "dadd_reset_test":
+            {
+                "smoke":"true", 
+                "full":"true", 
+                "codecoverage":"true", 
+                "iteration":"1", 
+                "uvm_testname":"dadd_reset_test", 
+                "macro_opt":"", 
+                "plusargs_opt":"" 
+            }
+        }
+}
